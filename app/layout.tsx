@@ -20,6 +20,11 @@ export const metadata: Metadata = {
   title: "Hide Me — Private Face Anonymizer",
   description:
     "Blur, pixelate, or cover faces in any photo instantly. 100% private — all processing runs in your browser. Zero uploads, zero tracking.",
+  icons: {
+    icon: "/icon.jpg",
+    shortcut: "/icon.jpg",
+    apple: "/icon.jpg",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
